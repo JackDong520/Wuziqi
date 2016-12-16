@@ -51,8 +51,6 @@ public class Mainactivity extends Activity implements AdapterView.OnItemClickLis
 
         lv.setOnItemClickListener(this);
 
-        drawerLayout = new ActionBarDrawerToggle(this , drawerLayout,
-                R.drawable.ic_add_circle_black_24dp ,R.string.open, R.string.close);
 
 
 
