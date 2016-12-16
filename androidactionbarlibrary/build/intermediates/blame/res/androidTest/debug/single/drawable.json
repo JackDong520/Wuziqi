@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\AndroidPratice\\Wuziqi\\androidactionbarlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionbar_btn_pressed.xml",
+        "source": "E:\\AndroidPratice\\Wuziqi\\androidactionbarlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionbar_btn_pressed.xml"
+    },
+    {
+        "merged": "E:\\AndroidPratice\\Wuziqi\\androidactionbarlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionbar_btn.xml",
+        "source": "E:\\AndroidPratice\\Wuziqi\\androidactionbarlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionbar_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidPratice\\Wuziqi\\androidactionbarlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionbar_btn_normal.xml",
+        "source": "E:\\AndroidPratice\\Wuziqi\\androidactionbarlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionbar_btn_normal.xml"
+    },
+    {
+        "merged": "E:\\AndroidPratice\\Wuziqi\\androidactionbarlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionbar_back_indicator.png",
+        "source": "E:\\AndroidPratice\\Wuziqi\\androidactionbarlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionbar_back_indicator.png"
+    },
+    {
+        "merged": "E:\\AndroidPratice\\Wuziqi\\androidactionbarlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionbar_background.xml",
+        "source": "E:\\AndroidPratice\\Wuziqi\\androidactionbarlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionbar_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidPratice\\Wuziqi\\androidactionbarlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\icon.png",
+        "source": "E:\\AndroidPratice\\Wuziqi\\androidactionbarlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\icon.png"
+    }
+]
