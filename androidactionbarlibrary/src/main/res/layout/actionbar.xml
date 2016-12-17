@@ -62,7 +62,7 @@
             android:layout_toLeftOf="@+id/actionbar_home_btn"
             android:layout_alignParentTop="true"
             android:padding="0dip"
-            android:visibility="gone"
+            android:visibility="visible"
             />
         
         <LinearLayout
@@ -74,7 +74,7 @@
             android:layout_margin="0dp"
             android:padding="0dp"
             android:background="@color/actionbar_separator"
-            />
+            android:orientation="horizontal" />
         
         <RelativeLayout
             android:layout_width="fill_parent"
@@ -92,7 +92,7 @@
                 android:layout_centerVertical="true"
                 android:paddingRight="7dip"
                 android:indeterminateOnly="true"
-                android:visibility="gone"
+                android:visibility="visible"
                 style="@style/ActionBarProgressBar"
                 />
             <com.markupartist.android.widget.ScrollingTextView
