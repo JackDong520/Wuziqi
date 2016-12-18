@@ -44,9 +44,22 @@ public class MMainActivity extends Activity{
                         com.example.jack.wuziqi.download.MainActivity.class));
             }
         });
-        final com.markupartist.android.widget.ActionBar.Action shareAction = new com.markupartist.android.widget.ActionBar.IntentAction(this, createShareIntent(), R.drawable.ic_add_circle_black_24dp);
+        findViewById(R.id.MyTopbar).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MMainActivity.this , com.example.jack.wuziqi.MyTopbar.MainActivity.class));
+            }
+        });
+
+        final com.markupartist.android.widget.ActionBar.Action shareAction =
+                new com.markupartist.android.widget.ActionBar.IntentAction(this,
+                        createShareIntent(), R.drawable.ic_add_circle_black_24dp);
         actionBar.addAction(shareAction);
-        final com.markupartist.android.widget.ActionBar.Action otherAction = new com.markupartist.android.widget.ActionBar.IntentAction(this, new Intent(this, com.example.jack.wuziqi.download.MainActivity.class), R.drawable.ic_chevron_left_black_24dp);
+
+        final com.markupartist.android.widget.ActionBar.Action otherAction =
+                new com.markupartist.android.widget.ActionBar.IntentAction(this,
+                        new Intent(this, com.example.jack.wuziqi.download.MainActivity.class), R.drawable.ic_chevron_left_black_24dp);
+
         actionBar.addAction(otherAction);
     }
     public static Intent createIntent(Context context) {

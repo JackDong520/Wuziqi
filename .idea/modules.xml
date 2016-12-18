@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Wuziqi.iml" filepath="$PROJECT_DIR$/Wuziqi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidactionbarlibrary/androidactionbarlibrary.iml" filepath="$PROJECT_DIR$/androidactionbarlibrary/androidactionbarlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

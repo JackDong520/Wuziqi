@@ -23,6 +23,7 @@
         <activity android:name=".wuziqi.MainActivity"></activity>
         <activity android:name=".wuziqi.AnimActivity"></activity>
         <activity android:name=".download.MainActivity"></activity>
+        <activity android:name=".MyTopbar.MainActivity"></activity>
         <service android:name=".download.DownloadService"></service>
 
     </application>

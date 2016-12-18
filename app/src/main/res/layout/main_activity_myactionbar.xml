@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.jack.wuziqi.MyTopbar.Topbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        custom:titleTextSize="10sp"
+        custom:title="自定义标题"
+        custom:titleTextColor="#123412"
+        custom:leftBackground="@color/actionbar_background_item_pressed_end"
+        custom:leftText="button"
+        custom:leftTextColor="#FFFFFF"
+        custom:rightBackground="@color/actionbar_background_item_pressed_end"
+        custom:rightText="button"
+        custom:rightTextColor="#FFFFFF"
+
+        >
+
+    </com.example.jack.wuziqi.MyTopbar.Topbar>
+
+</LinearLayout>
