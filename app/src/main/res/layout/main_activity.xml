@@ -7,28 +7,36 @@
     style="@style/ActionBar"
     />
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="五子棋"
         android:id="@+id/wuziqi"
         />
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="动画测试"
         android:id="@+id/anim"
         />
+
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="断点续传"
         android:id="@+id/download"
         />
+
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="MyTopbar"
         android:id="@+id/MyTopbar"
         />
+
+    <Button
+        android:text="Json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Json" />
 
 </LinearLayout>

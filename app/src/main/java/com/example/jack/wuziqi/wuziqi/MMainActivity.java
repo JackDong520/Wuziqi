@@ -50,6 +50,12 @@ public class MMainActivity extends Activity{
                 startActivity(new Intent(MMainActivity.this , com.example.jack.wuziqi.MyTopbar.MainActivity.class));
             }
         });
+        findViewById(R.id.Json).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MMainActivity.this , com.example.jack.wuziqi.JsonTest.MainActivity.class));
+            }
+        });
 
         final com.markupartist.android.widget.ActionBar.Action shareAction =
                 new com.markupartist.android.widget.ActionBar.IntentAction(this,

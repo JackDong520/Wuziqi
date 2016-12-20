@@ -28,4 +28,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(':androidactionbarlibrary')
     compile files('E:/AndroidPratice/Wuziqi/lib/okhttp-3.5.0.jar')
+    compile project(':lib')
 }

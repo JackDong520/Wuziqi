@@ -18,18 +18,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".wuziqi.InternetActivity"></activity>
-        <activity android:name=".wuziqi.socketActivity"></activity>
-        <activity android:name=".wuziqi.MainActivity"></activity>
-        <activity android:name=".wuziqi.AnimActivity"></activity>
-        <activity android:name=".download.MainActivity"></activity>
-        <activity android:name=".MyTopbar.MainActivity"></activity>
-        <service android:name=".download.DownloadService"></service>
+        <activity android:name=".wuziqi.InternetActivity"/>
+        <activity android:name=".wuziqi.socketActivity"/>
+        <activity android:name=".wuziqi.MainActivity"/>
+        <activity android:name=".wuziqi.AnimActivity"/>
+        <activity android:name=".download.MainActivity"/>
+        <activity android:name=".MyTopbar.MainActivity"/>
+        <activity android:name=".JsonTest.MainActivity"/>
+        <service android:name=".download.DownloadService"/>
+
 
     </application>
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
