@@ -1,2 +1,2 @@
-include ':app', ':lib'
+include ':app', ':lib', ':sliding_menu', ':library'
 include ':androidactionbarlibrary'

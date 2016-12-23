@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:icon, android:theme">
-        <activity android:name=".wuziqi.MMainActivity">
+        <activity android:name=".MMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
