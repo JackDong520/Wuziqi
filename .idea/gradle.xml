@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/lib" />
             <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/recyclerview" />
             <option value="$PROJECT_DIR$/sliding_menu" />
           </set>
         </option>
