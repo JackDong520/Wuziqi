@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:title="ListView"
+        android:showAsAction="always"
+        android:icon="@drawable/add"
+
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="ListView"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource"
+        android:icon="@drawable/subtract"
+        />
+    <item
+        android:id="@+id/action_listview"
+        android:orderInCategory="100"
+        android:title="ListView"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/action_gridview"
+        android:orderInCategory="100"
+        android:title="Gridview"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/action__hor_gridview"
+        android:orderInCategory="100"
+        android:title="HorizontalGridView"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/action_staggered"
+        android:orderInCategory="100"
+        android:title="staggeredGridView"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+
+
+
+</menu>
