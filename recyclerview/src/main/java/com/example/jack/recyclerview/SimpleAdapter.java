@@ -11,7 +11,13 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
+ *
  * Created by 72408 on 2016/12/23.
+ */
+
+/**
+ * Adapter要继承 RecyclerView.Adapter<MyViewHolder>
+ *     MyViewHolder继承与ViewHolder
  */
 
 public class SimpleAdapter extends RecyclerView.Adapter<MyViewHolder> {

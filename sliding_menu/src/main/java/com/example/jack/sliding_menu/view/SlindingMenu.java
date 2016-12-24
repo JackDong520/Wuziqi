@@ -10,6 +10,8 @@ import android.view.WindowManager;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 
+import junit.framework.TestResult;
+
 /**
  * Created by 72408 on 2016/12/23.
  */
@@ -21,6 +23,8 @@ public class SlindingMenu extends HorizontalScrollView {
     private ViewGroup mContent;
     private int mScreenWidth;
     private int mMenuWidth;
+
+    private boolean isOpen;
 
     //dp
     private int mMenuRightPadding = 50 ;
@@ -92,9 +96,11 @@ public class SlindingMenu extends HorizontalScrollView {
 
                 if (scroIIX > mMenuWidth /2){
                     this.smoothScrollTo(mMenuWidth , 0 );
+                    isOpen  =false;
                 }else
                 {
                     this.smoothScrollTo(0 , 0);
+                    isOpen = true;
                 }
                 return true;
 
@@ -104,4 +110,23 @@ public class SlindingMenu extends HorizontalScrollView {
         return super.onTouchEvent(ev);
 
     }
+    public void opmenMenu(){
+        if (isOpen)return;
+
+        this.smoothScrollTo( 0 , 0);
+        isOpen = true;
+    }
+    public void closeMenu(){
+        if (!isOpen)return;
+        this.smoothScrollTo(mMenuWidth , 0 );
+        isOpen = false;
+    }
+
+    public void toggle(){
+
+        if (isOpen)closeMenu();
+        else opmenMenu();
+    }
+
+
 }
