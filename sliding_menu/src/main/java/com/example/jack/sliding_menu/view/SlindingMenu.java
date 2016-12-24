@@ -1,6 +1,7 @@
 package com.example.jack.sliding_menu.view;
 
 import android.content.Context;
+import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
@@ -9,6 +10,8 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
+
+import com.nineoldandroids.view.ViewHelper;
 
 import junit.framework.TestResult;
 
@@ -128,5 +131,23 @@ public class SlindingMenu extends HorizontalScrollView {
         else opmenMenu();
     }
 
+    /**
+     * 滚动发生时调用
+     * @param l
+     * @param t
+     * @param oldl
+     * @param oldt
+     */
+    @Override
+    protected void onScrollChanged(int l, int t, int oldl, int oldt) {
 
+        super.onScrollChanged(l, t, oldl, oldt);
+        float scale =l * 1.0f / mMenuWidth ;//l ~ 0
+        //调用属性动画设置TranslationX
+        ViewHelper.setTranslationX(mMenu  , mMenuWidth*scale);
+
+
+
+
+    }
 }
