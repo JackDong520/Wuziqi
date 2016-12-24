@@ -24,12 +24,13 @@ public class PullToRefreshActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pull_to_refresh);
 
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
-        ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
+
 
 //        if (toolbar != null) {
 //            setSupportActionBar(toolbar);
 //        }
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
+        ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
         FragmentManager fm = getSupportFragmentManager();
 
         viewPager.setAdapter(new SectionPagerAdapter(fm));

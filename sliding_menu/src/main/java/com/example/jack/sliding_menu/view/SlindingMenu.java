@@ -142,9 +142,9 @@ public class SlindingMenu extends HorizontalScrollView {
     protected void onScrollChanged(int l, int t, int oldl, int oldt) {
 
         super.onScrollChanged(l, t, oldl, oldt);
-        float scale =l * 1.0f / mMenuWidth ;//l ~ 0
-        //调用属性动画设置TranslationX
-        ViewHelper.setTranslationX(mMenu  , mMenuWidth*scale);
+//        float scale =l * 1.0f / mMenuWidth ;//l ~ 0
+//        //调用属性动画设置TranslationX
+//        ViewHelper.setTranslationX(mMenu  , mMenuWidth*scale);
 
 
 
