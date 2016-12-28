@@ -59,6 +59,7 @@ public class MMainActivity extends Activity{
 
 
 
+
         final com.markupartist.android.widget.ActionBar.Action shareAction =
                 new com.markupartist.android.widget.ActionBar.IntentAction(this,
                         createShareIntent(), R.drawable.ic_add_circle_black_24dp);
