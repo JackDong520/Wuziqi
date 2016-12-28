@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
 
+
     }
 
     private void initViews() {

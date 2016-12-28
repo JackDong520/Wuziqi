@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
         viewPager.setAdapter(new SectionPagerAdapter(fm));
         tabLayout.setupWithViewPager(viewPager);
+        getSupportActionBar().hide();
+
 
 
     }
